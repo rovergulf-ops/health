@@ -1,26 +1,74 @@
-owner: rovergulf-ops # Your GitHub organization or username, where this repository lives
-repo: health # The name of this repository
+owner: rovergulf-ops
+repo: health
 
 sites:
-  - name: Rovergulf Dev Auth API
+  - name: inkbe.com
+    url: https://inkbe.com
+  - name: rovergulf.net
+    url: https://rovergulf.net
+  - name: NGX Slice Kit
+    url: https://slice.rovergulf.net
+  # inkbe.com
+#  - name: Inkbe Auth API
+#    url: https://api.inkbe.com/auth/health
+#    maxResponseTime: 5000
+#  - name: Inkbe Engine API
+#    url: https://api.inkbe.com/engine/health
+#    maxResponseTime: 5000
+#  - name: Inkbe Media API
+#    url: https://api.inkbe.com/media/health
+#    maxResponseTime: 5000
+#  - name: Inkbe Events API
+#    url: https://api.inkbe.com/events/health
+  # api-dev
+  - name: Dev Auth API
     url: https://api-dev.rovergulf.net/auth/health
-  - name: Rovergulf Dev Core API
+    maxResponseTime: 5000
+  - name: Dev Engine API
     url: https://api-dev.rovergulf.net/engine/health
-  - name: Rovergulf Dev Media API
+    maxResponseTime: 5000
+  - name: Dev Media API
     url: https://api-dev.rovergulf.net/media/health
-  - name: Rovergulf Dev Events API
+    maxResponseTime: 5000
+  - name: Dev Events API
     url: https://api-dev.rovergulf.net/events/health
+    maxResponseTime: 5000
 
 status-website:
+  theme: dark
   cname: status.rovergulf.net
   baseUrl: /health
   apiBaseUrl: https://api.github.com
   logoUrl: https://avatars.githubusercontent.com/u/56350485?s=400&u=4edbcfa8024d85b7f6745ead98c97778bf291034&v=4
+  favicon: https://rovergulf.net/favicon.ico
+  faviconSvg: https://rovergulf.net/assets/favicon/safari-pinned-tab.svg
   name: Rovergulf Operations - API Status
   introTitle: "Rovergulf Engineers Services Status"
-  introMessage: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introMessage: ""
+  robotsText: "User-agent: * \n Disallow: /"
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/rovergulf-ops/health
+    - title: Discord
+      href: https://discord.com/invite/REcNxVNQjT
+  scripts:
+    - src: https://cdn.statuspage.io/se-v2.js
+
+#commitMessages:
+#  readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+#  summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+#  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+#  graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"
+#  commitAuthorName: "Upptime Bot"
+#  commitAuthorEmail: "upptime@koj.co"
+
+#workflowSchedule:
+#  graphs: "0 0 * * *"
+#  responseTime: "0 23 * * *"
+#  staticSite: "0 1 * * *"
+#  summary: "0 0 * * *"
+#  updateTemplate: "0 0 * * *"
+#  updates: "0 3 * * *"
+#  uptime: "*/5 * * * *"
