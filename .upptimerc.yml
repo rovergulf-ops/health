@@ -3,10 +3,10 @@ repo: health
 
 sites:
   - # inkbe
-  - name: Inkbe.com website
+  - name: inkbe.com
     url: https://inkbe.com
     # rovergulf
-  - name: Rovergulf Engineers website
+  - name: rovergulf.net
     url: https://rovergulf.net
   - name: NGX Slice Kit
     url: https://slice.rovergulf.net
