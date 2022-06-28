@@ -3,10 +3,10 @@ repo: health
 
 sites:
   - # inkbe
-  - name: Inkbe
+  - name: Inkbe.com website
     url: https://inkbe.com
     # rovergulf
-  - name: Rovergulf Engineers
+  - name: Rovergulf Engineers website
     url: https://rovergulf.net
   - name: NGX Slice Kit
     url: https://slice.rovergulf.net
@@ -57,8 +57,6 @@ status-website:
       href: https://github.com/rovergulf-ops/health
     - title: Discord
       href: https://discord.com/invite/REcNxVNQjT
-#  scripts:
-#    - src: https://cdn.statuspage.io/se-v2.js
 
 #commitMessages:
 #  readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
