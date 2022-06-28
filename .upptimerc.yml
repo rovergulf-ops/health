@@ -12,8 +12,9 @@ sites:
     url: https://api-dev.rovergulf.net/events/health
 
 status-website:
-#  cname: status.rovergulf.net
-#  baseUrl: /health
+  cname: status.rovergulf.net
+  baseUrl: /health
+  apiBaseUrl: https://api.github.com
   logoUrl: https://avatars.githubusercontent.com/u/56350485?s=400&u=4edbcfa8024d85b7f6745ead98c97778bf291034&v=4
   name: Rovergulf Operations - API Status
   introTitle: "Rovergulf Engineers Services Status"
