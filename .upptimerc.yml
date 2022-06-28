@@ -2,13 +2,15 @@ owner: rovergulf-ops
 repo: health
 
 sites:
+  - # inkbe
   - name: inkbe.com
     url: https://inkbe.com
+    # rovergulf
   - name: rovergulf.net
     url: https://rovergulf.net
   - name: NGX Slice Kit
     url: https://slice.rovergulf.net
-  # inkbe.com
+  # inkbe.com api
 #  - name: Inkbe Auth API
 #    url: https://api.inkbe.com/auth/health
 #    maxResponseTime: 5000
@@ -20,7 +22,7 @@ sites:
 #    maxResponseTime: 5000
 #  - name: Inkbe Events API
 #    url: https://api.inkbe.com/events/health
-  # api-dev
+  # dev api
   - name: Dev Auth API
     url: https://api-dev.rovergulf.net/auth/health
     maxResponseTime: 5000
@@ -44,7 +46,7 @@ status-website:
   faviconSvg: https://rovergulf.net/assets/favicon/safari-pinned-tab.svg
   name: Rovergulf Operations - API Status
   introTitle: "Rovergulf Engineers Services Status"
-  introMessage: ""
+  introMessage: "Public API and websites uptime status"
   robotsText: "User-agent: * \n Disallow: /"
   navbar:
     - title: Status
