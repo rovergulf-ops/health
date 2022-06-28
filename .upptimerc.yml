@@ -37,7 +37,7 @@ sites:
     maxResponseTime: 5000
 
 status-website:
-  theme: dark
+#  theme: dark
   cname: status.rovergulf.net
   baseUrl: /health
   apiBaseUrl: https://api.github.com
