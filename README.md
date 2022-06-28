@@ -2,5 +2,5 @@
 
 Powered by [upptime](https://github.com/upptime/upptime)
 
-- https://rovergulf-ops.github.io/status/
+- https://rovergulf-ops.github.io/health/
 - https://status.rovergulf.net
