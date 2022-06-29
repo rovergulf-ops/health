@@ -36,8 +36,6 @@ sites:
     url: https://api-dev.rovergulf.net/events/health
     maxResponseTime: 5000
 
-skipHomepageUpdate: true
-
 status-website:
   theme: dark
   cname: status.rovergulf.net
@@ -49,7 +47,6 @@ status-website:
   name: Rovergulf Operations - API Status
   introTitle: "Rovergulf Engineers Services Status"
   introMessage: "Public API and websites uptime status"
-  robotsText: "User-agent: * \n Disallow: /"
   navbar:
     - title: Status
       href: /
