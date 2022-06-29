@@ -39,7 +39,7 @@ sites:
 status-website:
   theme: dark
   cname: status.rovergulf.net
-  baseUrl: /health
+#  baseUrl: /health
   apiBaseUrl: https://api.github.com
   logoUrl: https://avatars.githubusercontent.com/u/56350485?s=400&u=4edbcfa8024d85b7f6745ead98c97778bf291034&v=4
   favicon: https://rovergulf.net/favicon.ico
