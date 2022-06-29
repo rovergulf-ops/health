@@ -5,11 +5,14 @@ sites:
     # inkbe
   - name: inkbe.com
     url: https://inkbe.com
+    icon: https://inkbe.com/favicon.ico
     # rovergulf
   - name: rovergulf.net
     url: https://rovergulf.net
+    icon: https://rovergulf.net/favicon.ico
   - name: NGX Slice Kit
     url: https://slice.rovergulf.net
+    icon: https://slice.rovergulf.net/favicon.ico
   # inkbe.com api
 #  - name: Inkbe Auth API
 #    url: https://api.inkbe.com/auth/health
@@ -25,15 +28,19 @@ sites:
   # dev api
   - name: Dev Auth API
     url: https://api-dev.rovergulf.net/auth/health
+    icon: https://rovergulf.net/favicon.ico
     maxResponseTime: 5000
   - name: Dev Engine API
     url: https://api-dev.rovergulf.net/engine/health
+    icon: https://rovergulf.net/favicon.ico
     maxResponseTime: 5000
   - name: Dev Media API
     url: https://api-dev.rovergulf.net/media/health
+    icon: https://rovergulf.net/favicon.ico
     maxResponseTime: 5000
   - name: Dev Events API
     url: https://api-dev.rovergulf.net/events/health
+    icon: https://rovergulf.net/favicon.ico
     maxResponseTime: 5000
 
 status-website:
@@ -44,7 +51,7 @@ status-website:
   logoUrl: https://avatars.githubusercontent.com/u/56350485?s=400&u=4edbcfa8024d85b7f6745ead98c97778bf291034&v=4
   favicon: https://rovergulf.net/favicon.ico
   faviconSvg: https://rovergulf.net/assets/favicon/safari-pinned-tab.svg
-  name: Rovergulf Operations - API Status
+  name: Rovergulf Operations
   introTitle: "Rovergulf Engineers Services Status"
   introMessage: "Public API and websites uptime status"
   navbar:
