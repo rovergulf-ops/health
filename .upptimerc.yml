@@ -5,14 +5,14 @@ sites:
     # inkbe
   - name: inkbe.com
     url: https://inkbe.com
-    icon: https://inkbe.com/favicon.ico
+    icon: https://inkbe.com/assets/favicons/favicon.ico
     # rovergulf
   - name: rovergulf.net
     url: https://rovergulf.net
     icon: https://rovergulf.net/favicon.ico
   - name: NGX Slice Kit
     url: https://slice.rovergulf.net
-    icon: https://slice.rovergulf.net/favicon.ico
+    icon: https://slice.rovergulf.net/assets/favicon/favicon.ico
   # inkbe.com api
 #  - name: Inkbe Auth API
 #    url: https://api.inkbe.com/auth/health
