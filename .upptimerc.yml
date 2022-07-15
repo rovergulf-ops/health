@@ -26,6 +26,10 @@ sites:
 #  - name: Inkbe Events API
 #    url: https://api.inkbe.com/events/health
   # dev api
+  - name: Rovergulf NFT API
+    url: https://api.rovergulf.net/nft/health
+    icon: https://rovergulf.net/favicon.ico
+    maxResponseTime: 5000
   - name: Dev Auth API
     url: https://api-dev.rovergulf.net/auth/health
     icon: https://rovergulf.net/favicon.ico
